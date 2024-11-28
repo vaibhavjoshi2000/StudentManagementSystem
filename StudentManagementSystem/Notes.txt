@@ -1,0 +1,37 @@
+﻿--------STUDENT MANAGEMENT SYSTEM--------------
+
+1) Description
+=> Build a System to Add, Delete, Edit & View Student Records.
+
+2)Features
+=> It Uses a List for storing student data(name, id, marks)
+=> Save & Retrieve data using File handling.
+
+3)Concept Used
+=> Collections, Classes, Objects, File handling
+
+---------------------------Pints to remember-------------
+1. What is a Generic?
+
+=> Generic is a feature in C# that allows you to define a class, method, or data structure with a placeholder type.
+   This means that the data type can be specified later when you create an instance of that class or method.
+   It makes the code type-safe and reusable.
+
+=> List<T> is a generic collection (a list) that can hold items of any type, where T is a placeholder 
+   for the type of data the list will hold.
+
+=> List<Student> means that this list will hold Student objects.
+
+=> File Handling:
+
+StreamWriter: Writes to a file.
+StreamReader: Reads from a file.
+File.Exists: Checks if the file exists before attempting to load it.
+Comma-Separated Values (CSV):
+
+The data is saved in a simple format where values are separated by commas.
+This makes it easy to read and split the data later.
+Clearing and Reloading:
+
+students.Clear(): Ensures no duplicate data is loaded.
+Adds new Student objects back to the list.

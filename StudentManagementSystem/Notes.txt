@@ -10,7 +10,7 @@
 3)Concept Used
 => Collections, Classes, Objects, File handling
 
----------------------------Pints to remember-------------
+---------------------------Points to remember-------------
 1. What is a Generic?
 
 => Generic is a feature in C# that allows you to define a class, method, or data structure with a placeholder type.
